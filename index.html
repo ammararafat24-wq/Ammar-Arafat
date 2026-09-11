@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>عمار عرفات | Front-End & GIS Specialist</title>
-    <!-- Bootstrap 5 RTL CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
+    <title>Ammar Arafat | Front-End & GIS Specialist</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts (Cairo) -->
@@ -29,7 +29,6 @@
             overflow-x: hidden;
         }
 
-        /* Navbar */
         .navbar {
             background-color: rgba(11, 15, 23, 0.95);
             backdrop-filter: blur(10px);
@@ -46,7 +45,6 @@
             color: var(--accent-color) !important;
         }
 
-        /* Hero Section */
         .hero {
             padding: 150px 0 90px;
             background: radial-gradient(circle at 20% 30%, rgba(56, 189, 248, 0.15) 0%, transparent 50%);
@@ -74,7 +72,6 @@
             line-height: 1.9;
         }
 
-        /* Profile Image Styling */
         .hero-img-container {
             position: relative;
             display: flex;
@@ -107,7 +104,6 @@
             box-shadow: 0 15px 35px rgba(56, 189, 248, 0.25);
         }
 
-        /* Buttons */
         .btn-custom-primary {
             background-color: var(--accent-color);
             border: none;
@@ -140,7 +136,6 @@
             transform: translateY(-2px);
         }
 
-        /* Section Styling */
         section {
             padding: 80px 0;
             border-bottom: 1px solid var(--border-color);
@@ -161,7 +156,6 @@
             font-size: 1.1rem;
         }
 
-        /* Cards */
         .custom-card {
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
@@ -183,7 +177,6 @@
             margin-bottom: 20px;
         }
 
-        /* Skills Badges */
         .skill-badge {
             background-color: rgba(56, 189, 248, 0.15);
             color: var(--accent-hover);
@@ -196,7 +189,6 @@
             font-size: 0.9rem;
         }
 
-        /* Project Cards */
         .project-card {
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
@@ -239,7 +231,6 @@
             font-weight: 700;
         }
 
-        /* Modal Customization */
         .modal-content {
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
@@ -255,7 +246,6 @@
             filter: invert(1) grayscale(100%) brightness(200%);
         }
 
-        /* Contact */
         .contact-info-item {
             display: flex;
             align-items: center;
@@ -265,7 +255,7 @@
         .contact-info-item i {
             font-size: 1.3rem;
             color: var(--accent-color);
-            margin-left: 15px;
+            margin-right: 15px;
             min-width: 42px;
             height: 42px;
             background: rgba(56, 189, 248, 0.15);
@@ -302,7 +292,6 @@
             border-top: 1px solid var(--border-color);
         }
 
-        /* Responsive Media Queries for Mobile */
         @media (max-width: 768px) {
             .hero {
                 padding: 130px 0 60px;
@@ -341,18 +330,18 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><i class="fa-solid fa-map-location-dot text-info ms-2"></i>عمار عرفات</a>
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-map-location-dot text-info me-2"></i>Ammar Arafat</a>
             <button class="navbar-toggler border-0 text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <i class="fa-solid fa-bars fs-4"></i>
             </button>
             <div class="collapse navbar-collapse text-center text-lg-start mt-3 mt-lg-0" id="navbarNav">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#hero">الرئيسية</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">نبذة عني</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">المهارات والخبرات</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">المشاريع</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#training">التدريبات</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">تواصل معي</a></li>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills & Expertise</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#training">Training</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -363,18 +352,18 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7">
-                    <span class="skill-badge mb-3"><i class="fa-solid fa-code ms-2"></i>مرحبًا بك في عالمي الرقمي</span>
-                    <h1>أنا عمار عرفات</h1>
+                    <span class="skill-badge mb-3"><i class="fa-solid fa-code me-2"></i>Welcome to my digital world</span>
+                    <h1>I'm Ammar Arafat</h1>
                     <h2>Front-End Web Designer & GIS Specialist</h2>
-                    <p>أجمع بين دقة التحليلات المكانية وشبكات المرافق وبين إبداع تصميم وتطوير واجهات الويب العصرية. أسعى دائماً لتحويل البيانات الجغرافية والهندسية المعقدة إلى حلول برمجية وتطبيقات ويب تفاعلية وذكية.</p>
+                    <p>I combine the precision of spatial analysis and utility networks with the creativity of modern front-end web design. I strive to transform complex geographic and engineering data into interactive, smart web applications.</p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="#contact" class="btn btn-custom-primary"><i class="fa-solid fa-paper-plane ms-2"></i>تواصل معي</a>
-                        <a href="#projects" class="btn btn-custom-outline"><i class="fa-solid fa-briefcase ms-2"></i>تصفح مشاريعي</a>
+                        <a href="#contact" class="btn btn-custom-primary"><i class="fa-solid fa-paper-plane me-2"></i>Contact Me</a>
+                        <a href="#projects" class="btn btn-custom-outline"><i class="fa-solid fa-briefcase me-2"></i>Browse Projects</a>
                     </div>
                 </div>
                 <div class="col-lg-5 text-center mt-5 mt-lg-0">
                     <div class="hero-img-container">
-                        <img src="img/WhatsApp Image 2026-09-10 at 12.57.23 PM.jpeg" alt="عمار عرفات" class="profile-img">
+                        <img src="img/WhatsApp Image 2026-09-10 at 12.57.23 PM.jpeg" alt="Ammar Arafat" class="profile-img">
                     </div>
                 </div>
             </div>
@@ -384,24 +373,24 @@
     <!-- About Me Section -->
     <section id="about">
         <div class="container">
-            <h2 class="section-title">نبذة عني</h2>
-            <p class="section-subtitle">تعرف على خلفيتي الأكاديمية وشغفي المهني</p>
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Get to know my academic background and professional passion</p>
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
                     <div class="custom-card">
                         <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                        <h4 class="fw-bold mb-3 text-white">الخلفية الأكاديمية والمهنية</h4>
+                        <h4 class="fw-bold mb-3 text-white">Academic & Professional Background</h4>
                         <p style="color: var(--text-muted); line-height: 1.8;">
-                            أنا عمار عرفات، طالب في الفرقة الثالثة بكلية الآداب، قسم مساحة وخرايط ونظم معلومات جغرافية (GIS) بجامعة الزقازيق. امتلك شغفاً كبيراً بتطوير الويب، وقد طورت مهاراتي التقنية من خلال تدريبات معتمدة من جهات متخصصة.
+                            I am Ammar Arafat, a third-year student at the Faculty of Arts, Department of Surveying, Maps, and Geographic Information Systems (GIS) at Zagazig University. I have a strong passion for web development and have enhanced my technical skills through specialized accredited training.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="custom-card">
                         <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
-                        <h4 class="fw-bold mb-3 text-white">دمج البرمجة بالتحليلات المكانية</h4>
+                        <h4 class="fw-bold mb-3 text-white">Bridging Programming & Spatial Analysis</h4>
                         <p style="color: var(--text-muted); line-height: 1.8;">
-                            أقوم بالربط بين لغات البرمجة وإطارات العمل الحديثة وبين تكنولوجيا النظم الجغرافية والمساحة. أعمل على تنفيذ التحليلات المكانية، تصميم وادارة شبكات المرافق، وتقديم حلول متكاملة تخدم قطاع البنية التحتية والويب.
+                            I connect programming languages and modern frameworks with GIS technology and surveying. I perform spatial analysis, design and manage utility networks, and deliver integrated solutions serving infrastructure and web sectors.
                         </p>
                     </div>
                 </div>
@@ -412,55 +401,52 @@
     <!-- Skills Section -->
     <section id="skills">
         <div class="container">
-            <h2 class="section-title">المهارات والخبرات المهنية</h2>
-            <p class="section-subtitle">التقنيات، البرامج، والخبرات التدريبية التي أمتلكها</p>
+            <h2 class="section-title">Skills & Professional Expertise</h2>
+            <p class="section-subtitle">Technologies, software, and training proficiencies I possess</p>
             <div class="row g-4">
-                <!-- Front-End Skills -->
                 <div class="col-lg-4">
                     <div class="custom-card">
                         <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-laptop-code text-info fa-2x ms-3"></i>
+                            <i class="fa-solid fa-laptop-code text-info fa-2x me-3"></i>
                             <h3 class="h5 fw-bold mb-0 text-white">Front-End</h3>
                         </div>
                         <div>
-                            <span class="skill-badge"><i class="fa-brands fa-html5 text-danger ms-1"></i> HTML5</span>
-                            <span class="skill-badge"><i class="fa-brands fa-css3-alt text-primary ms-1"></i> CSS3</span>
-                            <span class="skill-badge"><i class="fa-brands fa-js text-warning ms-1"></i> JavaScript</span>
-                            <span class="skill-badge"><i class="fa-brands fa-bootstrap text-purple ms-1"></i> Bootstrap 5</span>
-                            <span class="skill-badge"><i class="fa-solid fa-wind text-info ms-1"></i> Tailwind</span>
-                            <span class="skill-badge"><i class="fa-brands fa-react text-info ms-1"></i> React.js</span>
+                            <span class="skill-badge"><i class="fa-brands fa-html5 text-danger me-1"></i> HTML5</span>
+                            <span class="skill-badge"><i class="fa-brands fa-css3-alt text-primary me-1"></i> CSS3</span>
+                            <span class="skill-badge"><i class="fa-brands fa-js text-warning me-1"></i> JavaScript</span>
+                            <span class="skill-badge"><i class="fa-brands fa-bootstrap text-purple me-1"></i> Bootstrap 5</span>
+                            <span class="skill-badge"><i class="fa-solid fa-wind text-info me-1"></i> Tailwind</span>
+                            <span class="skill-badge"><i class="fa-brands fa-react text-info me-1"></i> React.js</span>
                         </div>
                     </div>
                 </div>
-                <!-- GIS & Engineering Skills -->
                 <div class="col-lg-4">
                     <div class="custom-card">
                         <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-earth-americas text-info fa-2x ms-3"></i>
+                            <i class="fa-solid fa-earth-americas text-info fa-2x me-3"></i>
                             <h3 class="h5 fw-bold mb-0 text-white">GIS & Engineering</h3>
                         </div>
                         <div>
-                            <span class="skill-badge"><i class="fa-solid fa-map-location-dot ms-1"></i> التحليل المكاني</span>
-                            <span class="skill-badge"><i class="fa-solid fa-network-wired ms-1"></i> شبكات المرافق</span>
-                            <span class="skill-badge"><i class="fa-solid fa-globe ms-1"></i> QGIS</span>
-                            <span class="skill-badge"><i class="fa-solid fa-drafting-compass ms-1"></i> AutoCAD</span>
-                            <span class="skill-badge"><i class="fa-solid fa-cube ms-1"></i> Civil 3D</span>
-                            <span class="skill-badge"><i class="fa-solid fa-server ms-1"></i> ArcGIS Server</span>
-                            <span class="skill-badge"><i class="fa-solid fa-file-excel ms-1"></i> Excel مساحي</span>
+                            <span class="skill-badge"><i class="fa-solid fa-map-location-dot me-1"></i> Spatial Analysis</span>
+                            <span class="skill-badge"><i class="fa-solid fa-network-wired me-1"></i> Utility Networks</span>
+                            <span class="skill-badge"><i class="fa-solid fa-globe me-1"></i> QGIS</span>
+                            <span class="skill-badge"><i class="fa-solid fa-drafting-compass me-1"></i> AutoCAD</span>
+                            <span class="skill-badge"><i class="fa-solid fa-cube me-1"></i> Civil 3D</span>
+                            <span class="skill-badge"><i class="fa-solid fa-server me-1"></i> ArcGIS Server</span>
+                            <span class="skill-badge"><i class="fa-solid fa-file-excel me-1"></i> Survey Excel</span>
                         </div>
                     </div>
                 </div>
-                <!-- Instructor & Freelance Experience -->
                 <div class="col-lg-4">
                     <div class="custom-card">
                         <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-chalkboard-user text-info fa-2x ms-3"></i>
-                            <h3 class="h5 fw-bold mb-0 text-white">الخبرات والتدريس</h3>
+                            <i class="fa-solid fa-chalkboard-user text-info fa-2x me-3"></i>
+                            <h3 class="h5 fw-bold mb-0 text-white">Teaching & Experience</h3>
                         </div>
                         <div>
-                            <span class="skill-badge"><i class="fa-solid fa-chalkboard-user ms-1"></i> محاضر GIS في الشركات</span>
-                            <span class="skill-badge"><i class="fa-solid fa-handshake ms-1"></i> العمل الحر (خمسات ومستقل)</span>
-                            <span class="skill-badge"><i class="fa-solid fa-diagram-project ms-1"></i> إدارة المشاريع</span>
+                            <span class="skill-badge"><i class="fa-solid fa-chalkboard-user me-1"></i> GIS Instructor in Companies</span>
+                            <span class="skill-badge"><i class="fa-solid fa-handshake me-1"></i> Freelancing (Khamsat & Mostaql)</span>
+                            <span class="skill-badge"><i class="fa-solid fa-diagram-project me-1"></i> Project Management</span>
                         </div>
                     </div>
                 </div>
@@ -471,61 +457,57 @@
     <!-- Projects Section -->
     <section id="projects">
         <div class="container">
-            <h2 class="section-title">مشاريع مختارة</h2>
-            <p class="section-subtitle">نماذج من أعمالي في مجالي الويب ونظم المعلومات الجغرافية</p>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Samples of my work in web development and GIS</p>
             <div class="row g-4 justify-content-center">
-                <!-- Web Project 1 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
                         <div class="project-img-container">
-                            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&q=80" alt="موقع العقارات">
+                            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&q=80" alt="Real Estate Website">
                         </div>
                         <div class="project-content">
-                            <h5 class="mb-2">موقع العقارات (Real Estate)</h5>
-                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;" class="mb-3">منصة ويب متجاوبة لعرض العقارات والوحدات السكنية بتصميم عصري وأداء عالي.</p>
-                            <a href="https://realestate-website-psi.vercel.app/" target="_blank" class="btn btn-sm btn-custom-outline w-100">معاينة المشروع</a>
+                            <h5 class="mb-2">Real Estate Website</h5>
+                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;" class="mb-3">A responsive web platform to display real estate and residential units with modern design and high performance.</p>
+                            <a href="https://realestate-website-psi.vercel.app/" target="_blank" class="btn btn-sm btn-custom-outline w-100">Live Preview</a>
                         </div>
                     </div>
                 </div>
-                <!-- Web Project 2 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
                         <div class="project-img-container">
-                            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80" alt="صفحة الأسعار">
+                            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80" alt="Pricing Page">
                         </div>
                         <div class="project-content">
-                            <h5 class="mb-2">صفحة الأسعار (Pricing Page)</h5>
-                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;" class="mb-3">واجهة تفاعلية وعصرية لعرض باقات الأسعار والخدمات بأسلوب منظم وجذاب.</p>
-                            <a href="https://paricing.vercel.app/" target="_blank" class="btn btn-sm btn-custom-outline w-100">معاينة المشروع</a>
+                            <h5 class="mb-2">Pricing Page</h5>
+                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;" class="mb-3">An interactive and modern interface to showcase pricing plans and services in an organized, attractive style.</p>
+                            <a href="https://paricing.vercel.app/" target="_blank" class="btn btn-sm btn-custom-outline w-100">Live Preview</a>
                         </div>
                     </div>
                 </div>
-                <!-- GIS Project 1: Tor City Topographical Study -->
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
                         <div class="project-img-container">
-                            <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=600&q=80" alt="دراسة مورفولوجية وتوبوغرافية لمدينة الطور">
+                            <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=600&q=80" alt="Tor City Topographical Study">
                         </div>
                         <div class="project-content">
-                            <h5 class="mb-2">دراسة طوبوغرافية لمدينة الطور</h5>
-                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;" class="mb-3">دراسة مورفولوجية وتوبوغرافية شاملة لمدينة الطور (DEM، الميل، الكونتور، واتجاهات الميل).</p>
+                            <h5 class="mb-2">Tor City Topographical Study</h5>
+                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;" class="mb-3">A comprehensive morphological and topographical study of Tor City (DEM, Slope, Contour, and Aspect).</p>
                             <button type="button" class="btn btn-sm btn-custom-outline w-100" data-bs-toggle="modal" data-bs-target="#torCityModal">
-                                عرض الصور والشرح التفصيلي
+                                View Details & Images
                             </button>
                         </div>
                     </div>
                 </div>
-                <!-- GIS Project 2: Tor City Hydrological Study -->
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
                         <div class="project-img-container">
-                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="دراسة هيدرولوجي لمدينة الطور">
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Tor City Hydrological Study">
                         </div>
                         <div class="project-content">
-                            <h5 class="mb-2">دراسة هيدرولوجية لمدينة الطور</h5>
-                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;" class="mb-3">دراسة هيدرولوجية متقدمة تشمل تحليل مسارات المياه، المجاري الكبيرة، وتصنيف المجاري المائية حسب الرتبة.</p>
+                            <h5 class="mb-2">Tor City Hydrological Study</h5>
+                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;" class="mb-3">Advanced hydrological study including water flow analysis, major streams, and stream order classification.</p>
                             <button type="button" class="btn btn-sm btn-custom-outline w-100" data-bs-toggle="modal" data-bs-target="#torHydroModal">
-                                عرض الصور والشرح التفصيلي
+                                View Details & Images
                             </button>
                         </div>
                     </div>
@@ -539,67 +521,63 @@
         <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content p-3 p-md-4">
                 <div class="modal-header">
-                    <h4 class="modal-title fs-5 fs-md-4 fw-bold text-white" id="torCityModalLabel"><i class="fa-solid fa-map-location-dot text-info ms-2"></i>الدراسة المورفولوجية والتوبوغرافية لمدينة الطور</h4>
+                    <h4 class="modal-title fs-5 fs-md-4 fw-bold text-white" id="torCityModalLabel"><i class="fa-solid fa-map-location-dot text-info me-2"></i>Tor City Topographical & Morphological Study</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="p-3 mb-4 rounded" style="background-color: rgba(56, 189, 248, 0.08); border: 1px solid var(--border-color);">
-                        <h5 class="text-info fw-bold mb-2">ملخص المشروع:</h5>
+                        <h5 class="text-info fw-bold mb-2">Project Summary:</h5>
                         <p style="color: #ffffff; font-size: 1rem; line-height: 1.8; margin-bottom: 0;">
-                            دراسة مورفولوجية وتوبوغرافية شاملة لمدينة الطور، مفيدة جداً في مشاريع التخطيط العمراني، تقييم المخاطر الطبيعية، واختيار المواقع المناسبة للمشاريع الهندسية وإنشاء شبكات البنية التحتية بناءً على طبيعة الأرض واتجاهاتها[cite: 1].
+                            A comprehensive topographical and morphological study of Tor City, highly useful for urban planning, natural hazard evaluation (such as flood risks), and site selection for engineering projects and infrastructure networks based on ground characteristics[cite: 1].
                         </p>
                     </div>
 
                     <div class="row g-4">
-                        <!-- 1. DEM Map -->
                         <div class="col-lg-6">
                             <div class="custom-card h-100 p-3 p-md-4">
-                                <h5 class="text-info fw-bold mb-3">1. نموذج ارتفاع رقمي لمدينة الطور</h5>
+                                <h5 class="text-info fw-bold mb-3">1. Digital Elevation Model (DEM)</h5>
                                 <div class="text-center bg-black p-2 rounded mb-3">
-                                    <img src="img/Screenshot 2026-09-10 134341.png" alt="نموذج ارتفاع رقمي" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
+                                    <img src="img/Screenshot 2026-09-10 134341.png" alt="DEM Map" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
                                 </div>
                                 <div style="color: #ffffff; font-size: 0.95rem; line-height: 1.7;">
-                                    <p class="mb-2"><strong>الفكرة:</strong> توضح التغير في مناسيب الارتفاعات وانخفاضها عبر مساحات المدينة والمناطق المحيطة بها[cite: 1].</p>
-                                    <p class="mb-0"><strong>مفتاح الخريطة:</strong> القيم تتراوح من (0.002 إلى 0.5) وصولاً إلى (2 إلى 10)، لتوضيح تفاوت التضاريس عن مستوى سطح البحر[cite: 1].</p>
+                                    <p class="mb-2"><strong>Concept:</strong> Illustrates elevation changes and depressions across the city and surrounding areas[cite: 1].</p>
+                                    <p class="mb-0"><strong>Map Key:</strong> Values range from (0.002 to 0.5) up to (2 to 10), showing terrain variation relative to sea level[cite: 1].</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- 2. Slope Map -->
                         <div class="col-lg-6">
                             <div class="custom-card h-100 p-3 p-md-4">
-                                <h5 class="text-info fw-bold mb-3">2. ميل مدينة الطور</h5>
+                                <h5 class="text-info fw-bold mb-3">2. Slope Map</h5>
                                 <div class="text-center bg-black p-2 rounded mb-3">
-                                    <img src="img/Screenshot 2026-09-10 134354.png" alt="ميل مدينة الطور" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
+                                    <img src="img/Screenshot 2026-09-10 134354.png" alt="Slope Map" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
                                 </div>
                                 <div style="color: #ffffff; font-size: 0.95rem; line-height: 1.7;">
-                                    <p class="mb-2"><strong>الفكرة:</strong> حساب درجات الميل (Slope) لسطح الأرض لمعرفة انحدارات التضاريس[cite: 1].</p>
-                                    <p class="mb-0"><strong>مفتاح الخريطة:</strong> الفئات متقسمة من (1 إلى 20) وصولاً إلى (200 - 300) للمناطق شديدة التضرس[cite: 1].</p>
+                                    <p class="mb-2"><strong>Concept:</strong> Computes terrain slope degrees to identify land gradients (flat, steep, mountainous)[cite: 1].</p>
+                                    <p class="mb-0"><strong>Map Key:</strong> Categories range from (1 to 20) up to (200 - 300) for highly rugged terrain areas[cite: 1].</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- 3. Contour Map -->
                         <div class="col-lg-6">
                             <div class="custom-card h-100 p-3 p-md-4">
-                                <h5 class="text-info fw-bold mb-3">3. خريطة كنتورية لمدينة الطور</h5>
+                                <h5 class="text-info fw-bold mb-3">3. Contour Map</h5>
                                 <div class="text-center bg-black p-2 rounded mb-3">
-                                    <img src="img/Screenshot 2026-09-10 134407.png" alt="خريطة كنتورية" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
+                                    <img src="img/Screenshot 2026-09-10 134407.png" alt="Contour Map" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
                                 </div>
                                 <div style="color: #ffffff; font-size: 0.95rem; line-height: 1.7;">
-                                    <p class="mb-2"><strong>الفكرة:</strong> تمثيل خطوط التساوي الطبوغرافي لسطح الأرض[cite: 1].</p>
-                                    <p class="mb-0"><strong>الأهمية:</strong> تساعد مهندسي التخطيط في فهم شكل السطح بدقة وتحديد المرتفعات والمنخفضات[cite: 1].</p>
+                                    <p class="mb-2"><strong>Concept:</strong> Extracted contour lines representing topographic elevation equality[cite: 1].</p>
+                                    <p class="mb-0"><strong>Importance:</strong> Assists planning engineers in understanding surface shapes accurately and defining ridges and valleys[cite: 1].</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- 4. Aspect Map -->
                         <div class="col-lg-6">
                             <div class="custom-card h-100 p-3 p-md-4">
-                                <h5 class="text-info fw-bold mb-3">4. مسارات ميل مدينة الطور</h5>
+                                <h5 class="text-info fw-bold mb-3">4. Aspect Map</h5>
                                 <div class="text-center bg-black p-2 rounded mb-3">
-                                    <img src="img/Screenshot 2026-09-10 134415.png" alt="مسارات ميل مدينة الطور" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
+                                    <img src="img/Screenshot 2026-09-10 134415.png" alt="Aspect Map" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
                                 </div>
                                 <div style="color: #ffffff; font-size: 0.95rem; line-height: 1.7;">
-                                    <p class="mb-2"><strong>الفكرة:</strong> خريطة اتجاهات التعرض (Aspect) لتوضيح الاتجاه الجغرافي للمنحدرات[cite: 1].</p>
-                                    <p class="mb-0"><strong>مفتاح الخريطة:</strong> Flat (-1) للأراضي المستوية مع الاتجاهات الجغرافية بزواياها[cite: 1].</p>
+                                    <p class="mb-2"><strong>Concept:</strong> Shows the geographic direction that slopes face (North, South, East, West)[cite: 1].</p>
+                                    <p class="mb-0"><strong>Map Key:</strong> Flat (-1) for entirely level ground with precise directional angles[cite: 1].</p>
                                 </div>
                             </div>
                         </div>
@@ -609,7 +587,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-secondary rounded-pill px-4" data-bs-dismiss="modal">إغلاق</button>
+                    <button type="button" class="btn btn-sm btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -620,56 +598,53 @@
         <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content p-3 p-md-4">
                 <div class="modal-header">
-                    <h4 class="modal-title fs-5 fs-md-4 fw-bold text-white" id="torHydroModalLabel"><i class="fa-solid fa-water text-info ms-2"></i>الدراسة الهيدرولوجية لمدينة الطور</h4>
+                    <h4 class="modal-title fs-5 fs-md-4 fw-bold text-white" id="torHydroModalLabel"><i class="fa-solid fa-water text-info me-2"></i>Tor City Hydrological Study</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="p-3 mb-4 rounded" style="background-color: rgba(56, 189, 248, 0.08); border: 1px solid var(--border-color);">
-                        <h5 class="text-info fw-bold mb-2">ملخص المشروع:</h5>
+                        <h5 class="text-info fw-bold mb-2">Project Summary:</h5>
                         <p style="color: #ffffff; font-size: 1rem; line-height: 1.8; margin-bottom: 0;">
-                            دراسة هيدرولوجية متقدمة لمدينة الطور لتحليل سلوك المياه الجارية، تحديد مسارات السيول، والمجاري الرئيسية والفرعية؛ وهو أمر حيوي لتصميم شبكات تصريف المياه وحماية البنية التحتية.
+                            An advanced hydrological study of Tor City analyzing water flow behavior, flood paths, major and minor streams, essential for designing drainage networks and protecting infrastructure.
                         </p>
                     </div>
 
                     <div class="row g-4">
-                        <!-- 1. Flow Accumulation / Water Paths -->
                         <div class="col-lg-12">
                             <div class="custom-card p-3 p-md-4">
-                                <h5 class="text-info fw-bold mb-3">1. مسارات المياه بالنسبة لميل مدينة الطور</h5>
+                                <h5 class="text-info fw-bold mb-3">1. Water Flow Paths relative to Slope</h5>
                                 <div class="text-center bg-black p-2 rounded mb-3">
-                                    <img src="img/Screenshot 2026-09-10 195500.png" alt="مسارات المياه" class="img-fluid rounded border border-secondary" style="max-height: 350px; object-fit: contain;">
+                                    <img src="img/Screenshot 2026-09-10 195500.png" alt="Water Flow Paths" class="img-fluid rounded border border-secondary" style="max-height: 350px; object-fit: contain;">
                                 </div>
                                 <div style="color: #ffffff; font-size: 0.95rem; line-height: 1.7;">
-                                    <p class="mb-2"><strong>الفكرة:</strong> توضح تجميع المياه (Flow Accumulation) واتجاهات جريانها بناءً على نموذج الميل والتضاريس.</p>
-                                    <p class="mb-0"><strong>مفتاح الخريطة:</strong> التدرج اللوني يوضح كثافة تدفق المياه وتجمعها من المناطق المرتفعة نحو مسارات التصريف والخطوط الرئيسية.</p>
+                                    <p class="mb-2"><strong>Concept:</strong> Demonstrates flow accumulation and runoff directions based on terrain slope modeling.</p>
+                                    <p class="mb-0"><strong>Map Key:</strong> Color gradients show water concentration and flow intensity from high grounds toward drainage paths.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- 2. Major Streams -->
                         <div class="col-lg-6">
                             <div class="custom-card h-100 p-3 p-md-4">
-                                <h5 class="text-info fw-bold mb-3">2. المجاري الكبيرة بمدينة الطور</h5>
+                                <h5 class="text-info fw-bold mb-3">2. Major Streams in Tor City</h5>
                                 <div class="text-center bg-black p-2 rounded mb-3">
-                                    <img src="img/Screenshot 2026-09-10 195444.png" alt="المجاري الكبيرة" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
+                                    <img src="img/Screenshot 2026-09-10 195444.png" alt="Major Streams" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
                                 </div>
                                 <div style="color: #ffffff; font-size: 0.95rem; line-height: 1.7;">
-                                    <p class="mb-2"><strong>الفكرة:</strong> استخلاص ورسم خطوط الأودية والمجاري المائية الكبيرة والرئيسية داخل النطاق الجغرافي للمدينة.</p>
-                                    <p class="mb-0"><strong>الأهمية:</strong> تحديد المحاور الرئيسية لتصريف المياه والسيول لدراسة المخاطر وتأمين المنشآت الحيوية.</p>
+                                    <p class="mb-2"><strong>Concept:</strong> Extraction and mapping of main valleys and major water streams within the city boundaries.</p>
+                                    <p class="mb-0"><strong>Importance:</strong> Defining core axes for drainage and flood risk assessment to secure vital facilities.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- 3. Stream Order Classification -->
                         <div class="col-lg-6">
                             <div class="custom-card h-100 p-3 p-md-4">
-                                <h5 class="text-info fw-bold mb-3">3. تصنيف المجاري حسب الرتبة بمدينة الطور</h5>
+                                <h5 class="text-info fw-bold mb-3">3. Stream Order Classification</h5>
                                 <div class="text-center bg-black p-2 rounded mb-3">
-                                    <img src="img/Screenshot 2026-09-10 195450.png" alt="تصنيف المجاري حسب الرتبة" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
+                                    <img src="img/Screenshot 2026-09-10 195450.png" alt="Stream Order Classification" class="img-fluid rounded border border-secondary" style="max-height: 300px; object-fit: contain;">
                                 </div>
                                 <div style="color: #ffffff; font-size: 0.95rem; line-height: 1.7;">
-                                    <p class="mb-2"><strong>الفكرة:</strong> تصنيف شبكة المجاري المائية هيدرولوجياً بناءً على نظام الرتب (Stream Order من 1 إلى 4).</p>
-                                    <p class="mb-0"><strong>مفتاح الخريطة:</strong> تدرج الرتب من الرتبة الأولى (1) وحتى الرتبة الرابعة (4) بالألوان المميزة لتحديد قوة الحجم التدفقي لكل مجرى.</p>
+                                    <p class="mb-2"><strong>Concept:</strong> Hydrological classification of stream networks based on stream orders (1 to 4).</p>
+                                    <p class="mb-0"><strong>Map Key:</strong> Gradation from first order (1) up to fourth order (4) with distinct colors to identify flow volume per channel.</p>
                                 </div>
                             </div>
                         </div>
@@ -680,27 +655,26 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-sm btn-secondary rounded-pill px-4" data-bs-dismiss="modal">إغلاق</button>
+                    <button type="button" class="btn btn-sm btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Training & Certifications Section -->
+    <!-- Training Section -->
     <section id="training">
         <div class="container">
-            <h2 class="section-title">التدريبات والشهادات</h2>
-            <p class="section-subtitle">مسيرتي التطويرية والاعتمادات الرسمية</p>
+            <h2 class="section-title">Training & Certifications</h2>
+            <p class="section-subtitle">My developmental journey and official accreditations</p>
             <div class="row g-4">
-                <!-- NTI Training -->
                 <div class="col-md-6">
                     <div class="custom-card">
                         <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-award text-info fa-2x ms-3"></i>
-                            <h4 class="fw-bold mb-0 text-white fs-5">تدريب NTI</h4>
+                            <i class="fa-solid fa-award text-info fa-2x me-3"></i>
+                            <h4 class="fw-bold mb-0 text-white fs-5">NTI Training</h4>
                         </div>
                         <p style="color: var(--text-muted); line-height: 1.7;" class="small mb-3">
-                            أتممت تدريب (ويب ديزاينر) واكتسبت مهارات أساسية قوية في بناء وتصميم الواجهات.
+                            Completed Web Designer training and acquired strong core skills in UI building and design.
                         </p>
                         <div>
                             <span class="skill-badge">HTML</span>
@@ -710,15 +684,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- ITIDA Training -->
                 <div class="col-md-6">
                     <div class="custom-card">
                         <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-certificate text-info fa-2x ms-3"></i>
-                            <h4 class="fw-bold mb-0 text-white fs-5">اعتمادات ITIDA</h4>
+                            <i class="fa-solid fa-certificate text-info fa-2x me-3"></i>
+                            <h4 class="fw-bold mb-0 text-white fs-5">ITIDA Accreditations</h4>
                         </div>
                         <p style="color: var(--text-muted); line-height: 1.7;" class="small mb-3">
-                            برامج تدريبية متقدمة في تطوير واجهات المستخدم المتقدمة وإطارات العمل الحديثة.
+                            Advanced training programs in advanced UI development and modern frameworks.
                         </p>
                         <div>
                             <span class="skill-badge">HTML</span>
@@ -737,30 +710,30 @@
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <h2 class="section-title">تواصل معي</h2>
-            <p class="section-subtitle">يسعدني التواصل معك أو الإجابة عن أي استفسار</p>
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">I'd love to hear from you or answer any inquiries</p>
             <div class="row g-5">
                 <div class="col-lg-5">
-                    <h3 class="fw-bold mb-4 text-white">معلومات الاتصال</h3>
+                    <h3 class="fw-bold mb-4 text-white">Contact Information</h3>
                     <div class="contact-info-item">
                         <i class="fa-solid fa-envelope"></i>
                         <div>
-                            <span style="color: var(--text-muted);" class="d-block small">البريد الإلكتروني</span>
+                            <span style="color: var(--text-muted);" class="d-block small">Email</span>
                             <span class="fw-bold text-white text-break">ammararafat24@gmail.com</span>
                         </div>
                     </div>
                     <div class="contact-info-item">
                         <i class="fa-solid fa-phone"></i>
                         <div>
-                            <span style="color: var(--text-muted);" class="d-block small">الهاتف / واتساب</span>
+                            <span style="color: var(--text-muted);" class="d-block small">Phone / WhatsApp</span>
                             <span class="fw-bold text-white" dir="ltr">01011416748</span>
                         </div>
                     </div>
                     <div class="contact-info-item">
                         <i class="fa-solid fa-location-dot"></i>
                         <div>
-                            <span style="color: var(--text-muted);" class="d-block small">الموقع</span>
-                            <span class="fw-bold text-white">الزقازيق، مصر</span>
+                            <span style="color: var(--text-muted);" class="d-block small">Location</span>
+                            <span class="fw-bold text-white">Zagazig, Egypt</span>
                         </div>
                     </div>
                 </div>
@@ -768,18 +741,18 @@
                     <div class="custom-card">
                         <form>
                             <div class="mb-3">
-                                <label style="color: var(--text-muted);" class="form-label small">الاسم</label>
-                                <input type="text" class="form-control" placeholder="أدخل اسمك الكريم">
+                                <label style="color: var(--text-muted);" class="form-label small">Name</label>
+                                <input type="text" class="form-control" placeholder="Enter your full name">
                             </div>
                             <div class="mb-3">
-                                <label style="color: var(--text-muted);" class="form-label small">البريد الإلكتروني</label>
+                                <label style="color: var(--text-muted);" class="form-label small">Email</label>
                                 <input type="email" class="form-control" placeholder="example@gmail.com">
                             </div>
                             <div class="mb-3">
-                                <label style="color: var(--text-muted);" class="form-label small">الرسالة</label>
-                                <textarea class="form-control" rows="4" placeholder="اكتب رسالتك هنا..."></textarea>
+                                <label style="color: var(--text-muted);" class="form-label small">Message</label>
+                                <textarea class="form-control" rows="4" placeholder="Write your message here..."></textarea>
                             </div>
-                            <button type="submit" class="btn btn-custom-primary w-100">إرسال الرسالة</button>
+                            <button type="submit" class="btn btn-custom-primary w-100">Send Message</button>
                         </form>
                     </div>
                 </div>
@@ -790,7 +763,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p class="mb-0">جميع الحقوق محفوظة &copy; 2026 - عمار عرفات | Front-End Web Designer & GIS Specialist</p>
+            <p class="mb-0">All Rights Reserved &copy; 2026 - Ammar Arafat | Front-End Web Designer & GIS Specialist</p>
         </div>
     </footer>
 
